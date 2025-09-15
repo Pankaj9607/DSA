@@ -20,5 +20,6 @@ class CountDigits{
 
         int digits = countDigits(n);
         System.out.println("Number of digits: "+ digits);
+        scanner.close();
     }
 }
